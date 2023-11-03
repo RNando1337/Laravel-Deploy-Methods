@@ -5,7 +5,7 @@
 ```
 ln -s ~/your_laravel_folder/public/.htaccess ~/web_root_directory
 ```
-2. If your Laravel application uses symbolic links for the Laravel storage, don't forget to symlink ~/public/storage to the web root directory (~/public_html or similar). You can use the following command if it hasn't been symlinked already:
+2. If your Laravel application uses symbolic links for the Laravel storage, don't forget to symlink `~/public/storage` to the web root directory (`~/public_html or similar`). You can use the following command if it hasn't been symlinked already:
 
 ```
   ln -s ~/your_laravel_folder/public/storage ~/web_root_directory
