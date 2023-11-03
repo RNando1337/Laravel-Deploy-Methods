@@ -2,7 +2,7 @@
 
 ## English Documentation
 Steps:
-1. Start by uploading your Laravel application outside the web root directory. For instance, if the web root directory is ~/public_html, place your Laravel application outside of it. The folder structure should resemble the following:
+1. Start by uploading your Laravel application outside the web root directory. For instance, if the web root directory is (~/public_html or etc), place your Laravel application outside of it. The folder structure should resemble the following:
 
 ```
    ├── public_html (web root directory)
@@ -35,7 +35,7 @@ ln -s ~/your_laravel_application/public/ ~/public_html
 ## Indonesian Documentation
 
 Langkah-langkah:
-1. Mulailah dengan mengunggah aplikasi Laravel Anda di luar direktori akar web. Misalnya, jika direktori akar web adalah ~/public_html, tempatkan aplikasi Laravel Anda di luar direktori tersebut. Struktur folder harus seperti berikut:
+1. Mulailah dengan mengunggah aplikasi Laravel Anda di luar direktori akar web. Misalnya, jika direktori akar web adalah (~/public_html atau sebagainya), tempatkan aplikasi Laravel Anda di luar direktori tersebut. Struktur folder harus seperti berikut:
 ```
    ├── public_html (direktori root web)
    │   ├── folder apa pun..
