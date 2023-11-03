@@ -53,7 +53,7 @@ Langkah-langkah:
 ln -s ~/your_laravel_application/public/ ~/public_html
 ```
 
-3. Setelah membuat symlink, pastikan untuk memeriksa file .env dan menjalankan composer install. Jika Anda lupa mengunggah vendor atau file .env saat mengunggah aplikasi Laravel, atau jika file vendor dan .env diabaikan saat menarik dari Git, periksa dengan teliti file dan folder aplikasi Laravel Anda.
+3. Setelah membuat symlink, pastikan untuk memeriksa file .env dan menjalankan composer install. Jika Anda lupa mengunggah vendor atau file .env saat mengunggah aplikasi Laravel, atau jika file vendor dan .env diabaikan saat pull dari Git, periksa dengan teliti file dan folder aplikasi Laravel Anda.
 4. Setelah itu, ubah izin untuk folder public, storage, dan bootstrap menggunakan perintah seperti berikut:
 
 ```
