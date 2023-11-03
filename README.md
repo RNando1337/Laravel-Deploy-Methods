@@ -62,3 +62,8 @@ ln -s ~/your_laravel_application/public/ ~/public_html
 ```
 
 5. Selesai!
+
+# Deploy Cases Solution
+- If you're facing a problem when deploying a Laravel application, you can read the solution to these deployment cases by clicking this [link](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/cb9ae20f3025befe12b694e3927dba1025e25c51/Deploy%20Cases.md).
+
+- Jika Anda menghadapi masalah saat mendeploy aplikasi Laravel, Anda dapat membaca solusi kasus-kasus deploy ini dengan mengklik [tautan](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/cb9ae20f3025befe12b694e3927dba1025e25c51/Deploy%20Cases.md) ini.
