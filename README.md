@@ -7,13 +7,13 @@ Steps:
 ```
    ├── public_html (web root directory)
    │   ├── any folder..
-   │   │   ├── any files
-   │   ├── any file
+   │   │   └── any files
+   │   └── any file
    └── your_laravel_application
        ├── public
        ├── app
        ├── routes
-       ├── etc
+       └── etc
 ```
 
 2. Once you've created the Laravel application folder, the next step is to create a symlink to mirror the Laravel public application into the web root directory. Use the following command to create the symlink:
@@ -39,13 +39,13 @@ Langkah-langkah:
 ```
    ├── public_html (direktori root web)
    │   ├── folder apa pun..
-   │   │   ├── file-file apa pun
-   │   ├── file apa pun
+   │   │   └── file-file apa pun
+   │   └── file apa pun
    └── aplikasi_laravel_anda
        ├── public
        ├── app
        ├── routes
-       ├── dll
+       └── dll
 ```
 2. Setelah Anda membuat folder aplikasi Laravel, langkah berikutnya adalah membuat symlink untuk mencerminkan aplikasi publik Laravel ke dalam direktori akar web. Gunakan perintah berikut untuk membuat symlink:
 
