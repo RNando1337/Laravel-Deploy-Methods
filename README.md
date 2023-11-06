@@ -50,7 +50,7 @@ Langkah-langkah:
 2. Setelah Anda membuat folder aplikasi Laravel, langkah berikutnya adalah membuat symlink untuk mencerminkan aplikasi publik Laravel ke dalam direktori akar web. Gunakan perintah berikut untuk membuat symlink:
 
 ```
-ln -s ~/your_laravel_application/public/ ~/public_html
+ln -s ~/aplikasi_laravel_anda/public/ ~/public_html
 ```
 
 3. Setelah membuat symlink, pastikan untuk memeriksa file .env dan menjalankan composer install. Jika Anda lupa mengunggah vendor atau file .env saat mengunggah aplikasi Laravel, atau jika file vendor dan .env diabaikan saat pull dari Git, periksa dengan teliti file dan folder aplikasi Laravel Anda.
@@ -64,6 +64,6 @@ ln -s ~/your_laravel_application/public/ ~/public_html
 5. Selesai!
 
 # Deploy Cases Solution
-- If you're facing a problem when deploying a Laravel application, you can read the solution to these deployment cases by clicking this [link](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/13cf0abf12b0fe92dbb15a85e07d6ba660a7d405/Deploy%20Cases%20(English).md).
+- If you're facing a problem when deploying a Laravel application, you can read the solution to these deployment cases by clicking this [link](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/main/Deploy%20Cases%20(English).md).
 
-- Jika Anda menghadapi masalah saat mendeploy aplikasi Laravel, Anda dapat membaca solusi kasus-kasus deploy ini dengan mengklik [tautan](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/13cf0abf12b0fe92dbb15a85e07d6ba660a7d405/Deploy%20Cases%20(Indonesia).md) ini.
+- Jika Anda menghadapi masalah saat mendeploy aplikasi Laravel, Anda dapat membaca solusi kasus-kasus deploy ini dengan mengklik [tautan](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/main/Deploy%20Cases%20(Indonesia).md) ini.
