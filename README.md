@@ -1,75 +1,26 @@
-# Laravel Deploy Methods (English - Indonesia)
+# Laravel Deployment Guide
 
-## 🔀 Deploy Via Symlink
+Welcome to the Laravel Deployment Guide repository! 🚀 This repository serves as a comprehensive resource for documenting best practices in deploying Laravel applications securely and efficiently using various methods.
 
-### English Documentation
-Steps:
-1. Start by uploading your Laravel application outside the web root directory. For instance, if the web root directory is (~/public_html or etc), place your Laravel application outside of it. The folder structure should resemble the following:
+## Purpose
 
-```
-   ├── public_html (web root directory)
-   │   ├── any folder..
-   │   │   └── any files
-   │   └── any file
-   └── your_laravel_application
-       ├── public
-       ├── app
-       ├── routes
-       └── etc
-```
+The primary goal of this repository is to provide a detailed guide on deploying Laravel applications, offering insights into different deployment strategies and environments. Whether you're deploying to shared hosting, virtual private servers (VPS), cloud platforms, or using containerization, this guide aims to cover a broad spectrum of deployment scenarios.
 
-2. Once you've created the Laravel application folder, the next step is to create a symlink to mirror the Laravel public application into the web root directory. Use the following command to create the symlink:
+## Contents
 
-```
-ln -s ~/your_laravel_application/public/ ~/public_html
-```
+- **Deployment Strategies:** Explore step-by-step tutorials on deploying Laravel applications using different strategies such as traditional server setups, cloud services like AWS, Azure, and Google Cloud, as well as container orchestration with Docker and Kubernetes.
 
-3. After creating the symlink, make sure to check for the .env file and perform a composer install. If you forgot to upload the vendor or .env file during the Laravel application upload, or if the vendor and .env files were ignored when pulling from Git, carefully review your Laravel application's files and folders.
-4. After that, change the permissions for the public, storage, and bootstrap folders using commands like the following:
+- **Security Best Practices:** Learn how to secure your Laravel deployments in diverse environments. Topics include HTTPS configuration, server hardening, and securing sensitive information.
 
-```
-   chmod 755 public/
-   chmod 777 -R storage/ bootstrap/
-```
+## List of Methods
+- Indonesian/Bahasa Version
+   - [Deploy via Symlink](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/Indonesia/Deploy%20via%20Symlink%20(Indonesian%20Version).md)
+   - [Deploy pada Nginx Server](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/Indonesia/Deploy%20on%20Nginx%20(Indonesian%20Version).md)
+- English Version
+   - [Deploy via Symlink](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/English/Deploy%20via%20Symlink%20(English%20Version).md)
+   - [Deploy on Nginx Server](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/English/Deploy%20on%20Nginx%20(English%20Version).md)
 
-5. You're done!
+## How to Contribute
 
-### Indonesian Documentation
+We encourage contributions from the community to enrich and expand this deployment guide. If you have experience with specific deployment methods, encountered unique challenges, or have additional tips to share, please feel free to submit issues or pull requests. Together, we can create a versatile resource for the Laravel community.
 
-Langkah-langkah:
-1. Mulailah dengan mengunggah aplikasi Laravel Anda di luar direktori akar web. Misalnya, jika direktori akar web adalah (~/public_html atau sebagainya), tempatkan aplikasi Laravel Anda di luar direktori tersebut. Struktur folder harus seperti berikut:
-```
-   ├── public_html (direktori root web)
-   │   ├── folder apa pun..
-   │   │   └── file-file apa pun
-   │   └── file apa pun
-   └── aplikasi_laravel_anda
-       ├── public
-       ├── app
-       ├── routes
-       └── dll
-```
-2. Setelah Anda membuat folder aplikasi Laravel, langkah berikutnya adalah membuat symlink untuk mencerminkan aplikasi publik Laravel ke dalam direktori akar web. Gunakan perintah berikut untuk membuat symlink:
-
-```
-ln -s ~/aplikasi_laravel_anda/public/ ~/public_html
-```
-
-3. Setelah membuat symlink, pastikan untuk memeriksa file .env dan menjalankan composer install. Jika Anda lupa mengunggah vendor atau file .env saat mengunggah aplikasi Laravel, atau jika file vendor dan .env diabaikan saat pull dari Git, periksa dengan teliti file dan folder aplikasi Laravel Anda.
-4. Setelah itu, ubah izin untuk folder public, storage, dan bootstrap menggunakan perintah seperti berikut:
-
-```
-   chmod 755 public/
-   chmod 777 -R storage/ bootstrap/
-```
-
-5. Selesai!
-
-## ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) Deploy on Nginx Server 
-(coming soon)
-
-
-## Deploy Cases Solution (Solusi Masalah Deploy)
-- If you're facing a problem when deploying a Laravel application, you can read the solution to these deployment cases by clicking this [link](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/main/Deploy%20Cases%20(English).md).
-
-- Jika Anda menghadapi masalah saat mendeploy aplikasi Laravel, Anda dapat membaca solusi kasus-kasus deploy ini dengan mengklik [tautan](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/main/Deploy%20Cases%20(Indonesia).md) ini.
