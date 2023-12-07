@@ -70,5 +70,5 @@ ln -s ~/aplikasi_laravel_anda/public/ ~/public_html
 
 - Jika Anda menghadapi masalah saat mendeploy aplikasi Laravel, Anda dapat membaca solusi kasus-kasus deploy ini dengan mengklik [tautan](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/main/Deploy%20Cases%20(Indonesia).md) ini.
 
-## Deploy in Nginx Server
+## Deploy on Nginx Server
 (coming soon)
