@@ -1,6 +1,8 @@
-# Laravel Deploy With Symlink Documentation (English - Indonesia)
+# Laravel Deploy Method (English - Indonesia)
 
-## English Documentation
+## Deploy Via Symlink
+
+### English Documentation
 Steps:
 1. Start by uploading your Laravel application outside the web root directory. For instance, if the web root directory is (~/public_html or etc), place your Laravel application outside of it. The folder structure should resemble the following:
 
@@ -32,7 +34,7 @@ ln -s ~/your_laravel_application/public/ ~/public_html
 
 5. You're done!
 
-## Indonesian Documentation
+### Indonesian Documentation
 
 Langkah-langkah:
 1. Mulailah dengan mengunggah aplikasi Laravel Anda di luar direktori akar web. Misalnya, jika direktori akar web adalah (~/public_html atau sebagainya), tempatkan aplikasi Laravel Anda di luar direktori tersebut. Struktur folder harus seperti berikut:
@@ -63,7 +65,10 @@ ln -s ~/aplikasi_laravel_anda/public/ ~/public_html
 
 5. Selesai!
 
-# Deploy Cases Solution
+### Deploy Cases Solution
 - If you're facing a problem when deploying a Laravel application, you can read the solution to these deployment cases by clicking this [link](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/main/Deploy%20Cases%20(English).md).
 
 - Jika Anda menghadapi masalah saat mendeploy aplikasi Laravel, Anda dapat membaca solusi kasus-kasus deploy ini dengan mengklik [tautan](https://github.com/RNando1337/Laravel-Deploy-Symlink/blob/main/Deploy%20Cases%20(Indonesia).md) ini.
+
+## Deploy in Nginx Server
+(coming soon)
