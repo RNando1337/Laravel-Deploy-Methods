@@ -1,6 +1,6 @@
 # Laravel Deploy Methods (English - Indonesia)
 
-## Deploy Via Symlink
+## 🔀 Deploy Via Symlink
 
 ### English Documentation
 Steps:
@@ -65,7 +65,7 @@ ln -s ~/aplikasi_laravel_anda/public/ ~/public_html
 
 5. Selesai!
 
-## Deploy on Nginx Server
+## ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) Deploy on Nginx Server 
 (coming soon)
 
 
