@@ -1,4 +1,4 @@
-# Laravel Deploy Method (English - Indonesia)
+# Laravel Deploy Methods (English - Indonesia)
 
 ## Deploy Via Symlink
 
