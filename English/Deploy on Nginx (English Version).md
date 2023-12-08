@@ -19,7 +19,7 @@
        Active: active (php-fpm running)
    ```
    If it's not running, try starting it with systemctl start php-fpm.
-2. Update the default configuration of Nginx. By default, the Nginx configuration file is located at /etc/nginx/sites-available/ with the filename default. Update the configuration file using a text editor, for example, with the nano command: nano /etc/nginx/sites-available/default.
+2. Update the default configuration of Nginx. By default, the Nginx configuration file is located at `/etc/nginx/sites-available/` with the filename default. Update the configuration file using a text editor, for example, with the nano command: `nano /etc/nginx/sites-available/default`.
    Example Configuration:
    <img width="807" alt="gambar" src="https://github.com/RNando1337/Laravel-Deploy-Methods/assets/60562868/06a6b8d2-9e11-44f1-86e4-c71ecebbe7cd">
 
