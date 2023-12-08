@@ -2,7 +2,7 @@
 
 Langkah-Langkah :
 1. Pastikan php, php-fpm, dan php-mysql sudah terinstal pada aplikasimu, untuk mengeceknya dapat menggunakan command line berikut :
-   ```
+   ```php
    1. apt search php[versi php mu], misal apt search php8.1 << tujuannya untuk mengecek apakah paket tersedia pada repositori di sistem operasi yang kamu gunakan. Jika tidak ada coba gunakan repositori publik untuk proses instalasi.
    2. apt-get install php8.1 -y << ini adalah contoh command untuk menginstall php dengan versi 8.1, kamu dapat menysesuaikan kebutuhan dari versi php dari laravel yang akan kamu gunakan.
 
@@ -26,28 +26,29 @@ Pastikan kode seperti yang saya tandai pada gamabar diatas tidak tidak dimatikan
 Penjelasan :
 - Poin No. 1 merupakan kode untuk mengatur direktori root dari server. Jadi arahakan folder `/publik` dari aplikasi laravel kamu untuk dijadikan root direktori server
 - Poin No. 2 merupakan blok konfigurasi untuk mengatur cara server menangani permintaan ke URL utama (root),
-  ```
+  ```bash
   location / {
        try_files $uri $uri/ /index.php$is_args$args;
    }
   ```
   Dimana kode diatas mencoba menemukan file yang sesuai dengan URI yang diminta jika tidak ditemukan baik direktori atau apapun itu akan diarahkan ke `index.php` dengan menyertakan argumen yang mungkin ada
 - Poin No. 3,4,5 secara default masih dimatikan/atau dikomentari jadi hapus tanda pagar yang ada didepan kode yang saya tandai tersebut.
-  ```
+  ```bash
    fastcgi_pass unix:/var/run/php/php[versi php mu]-fpm.sock;
   ```
   sesuaikan versi dari php soket unik yang kamu gunakan
 - Poin No. 6, merupakan blok kode yang melarang akses ke file .htaccess, hal ini bertujuan untuk mencegah akses tidak sah ke file konfigurasi yang ada di folder public atau sebagainya. 
 5. Setelah selesai mengupdate konfigurasi, langkah selanjutnya cek konfigurasi apakah ada error atau tidak dengan cara melakukan command `nginx -t`
 Ekspektasi hasil : 
-```
+```bash
 nginx php config: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx php-fpm config: configuration file /etc/nginx/nginx.conf test is successful
 ```
 6. Kemudian jalankan ulang server dengan cara `systemctl restart nginx`
+7. Selesai!
 
 # Masalah Deploy
 - Jika kamu menghadapi error permission dari file/folder, coba untuk melakukan chmod dari folder yang harus diberikan permission misalnya
-  ```
+  ```bash
   chmod -R 777 ./storage ./bootstrap
   ```
