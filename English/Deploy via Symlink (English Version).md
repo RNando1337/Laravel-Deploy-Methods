@@ -31,7 +31,7 @@ ln -s ~/your_laravel_application/public/ ~/public_html
 
 5. You're done!
 
-# List of Cases
+# Deployment Issues
 
 1. If you encounter 404 errors for certain menus/routes, ensure that the .htaccess file has been symlinked in the web root directory (~/public_html or etc). It's possible that this .htaccess file hasn't been symlinked yet.
 
