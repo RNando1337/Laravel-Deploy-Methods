@@ -1,4 +1,4 @@
-# 🔀 Deploy Via Symlink
+# Tutorial
 
 Steps:
 1. Start by uploading your Laravel application outside the web root directory. For instance, if the web root directory is (~/public_html or etc), place your Laravel application outside of it. The folder structure should resemble the following:
