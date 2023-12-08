@@ -11,10 +11,10 @@
    ```
    Once installed, check if php-fpm is running with the following command:
    ```bash
-   systemctl status php8.1-fpm
+   systemctl status php[your php version]-fpm
 
    Expected result:
-   php8.1-[your php version].service - PHP 8.1 FastCGI Process Manager FPM for [Server OS]
+   php[php version]-fpm.service - PHP [php version] FastCGI Process Manager FPM for [Server OS]
        Loaded: loaded (/lib/systemd/system/php[your php version]-fpm.service)
        Active: active (php-fpm running)
    ```
