@@ -1,6 +1,6 @@
 # Tutorial
 
-## Steps:
+Steps:
 1. Ensure that php, php-fpm, and php-mysql are already installed on your application. To check, use the following command line:
    ```bash
    1. apt search php[your php version], for example, apt search php8.1 << the goal is to check if the package is available in the repositories of your operating system. If not, try using a public repository for the installation process.
