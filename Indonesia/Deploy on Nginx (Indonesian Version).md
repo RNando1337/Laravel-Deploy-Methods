@@ -11,10 +11,10 @@ Langkah-Langkah :
    ```
    Jika sudah diinstalasi, cek apakah php-fpm sudah dijalankan dengan cara dibawah ini 
    ```
-   systemctl status php8.1-fpm
+   systemctl status php[versi php]-fpm
 
    Ekspektasi hasil :
-   php8.1-[versi phpmu].service - PHP 8.1 FastCGI Process Manager FPM for [Server OS]
+   php8.1-[versi php].service - PHP [versi php] FastCGI Process Manager FPM for [Server OS]
       Loaded: loaded (/lib/systemd/system/php[versi phpmu]-fpm.service)
       Active: active (php-fpm running)
    ```
