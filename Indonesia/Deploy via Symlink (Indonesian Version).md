@@ -1,4 +1,4 @@
-# Dokumentasi Indonesia
+# Tutorial
 
 Langkah-langkah:
 1. Mulailah dengan mengunggah aplikasi Laravel Anda di luar direktori akar web. Misalnya, jika direktori akar web adalah (~/public_html atau sebagainya), tempatkan aplikasi Laravel Anda di luar direktori tersebut. Struktur folder harus seperti berikut:
