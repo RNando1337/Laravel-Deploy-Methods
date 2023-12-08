@@ -38,14 +38,14 @@ Penjelasan :
   ```
   sesuaikan versi dari php soket unik yang kamu gunakan
 - Poin No. 6, merupakan blok kode yang melarang akses ke file .htaccess, hal ini bertujuan untuk mencegah akses tidak sah ke file konfigurasi yang ada di folder public atau sebagainya. 
-5. Setelah selesai mengupdate konfigurasi, langkah selanjutnya cek konfigurasi apakah ada error atau tidak dengan cara melakukan command `nginx -t`
+3. Setelah selesai mengupdate konfigurasi, langkah selanjutnya cek konfigurasi apakah ada error atau tidak dengan cara melakukan command `nginx -t`
 Ekspektasi hasil : 
 ```bash
 nginx php config: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx php-fpm config: configuration file /etc/nginx/nginx.conf test is successful
 ```
-6. Kemudian jalankan ulang server dengan cara `systemctl restart nginx`
-7. Selesai!
+4. Kemudian jalankan ulang server dengan cara `systemctl restart nginx`
+5. Selesai!
 
 # Masalah Deploy
 - Jika kamu menghadapi error permission dari file/folder, coba untuk melakukan chmod dari folder yang harus diberikan permission misalnya
