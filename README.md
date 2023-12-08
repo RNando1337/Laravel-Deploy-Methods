@@ -14,11 +14,11 @@ The primary goal of this repository is to provide a detailed guide on deploying 
 
 ## List of Methods
 - Indonesian/Bahasa Version
-   - [Deploy dengan Symlink](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/Indonesia/Deploy%20via%20Symlink%20(Indonesian%20Version).md)
-   - [Deploy pada Nginx Server](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/Indonesia/Deploy%20on%20Nginx%20(Indonesian%20Version).md)
+   - [Deploy dengan Symlink](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/Indonesia/Deploy%20dengan%20Symlink.md)
+   - [Deploy pada Nginx Server](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/Indonesia/Deploy%20pada%20Nginx.md)
 - English Version
-   - [Deploy with Symlink](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/English/Deploy%20via%20Symlink%20(English%20Version).md)
-   - [Deploy on Nginx Server](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/English/Deploy%20on%20Nginx%20(English%20Version).md)
+   - [Deploy with Symlink](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/English/Deploy%20with%20Symlink.md)
+   - [Deploy on Nginx Server](https://github.com/RNando1337/Laravel-Deploy-Methods/blob/main/English/Deploy%20on%20Nginx.md)
 
 ## How to Contribute
 
